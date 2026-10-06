@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Barberville — Barbershop in Leuven · Parijsstraat 43</title>
+  <meta name="description" content="Barberville in hartje Leuven: fades, baard, studentenprijzen en ook dameskapsels. 4,9★ op Google. Parijsstraat 43. Online boeken via Fresha.">
+  <meta name="theme-color" content="#0b0b0c">
+  <meta property="og:title" content="Barberville — Leuven">
+  <meta property="og:description" content="Fresh cuts in de Parijsstraat. Studenten haar & baard €20.">
+  <meta property="og:image" content="img/zaak-interieur.jpg">
+  <link rel="icon" href="img/logo-dark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:ital,wght@1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BarberShop",
+    "name": "Barberville",
+    "image": "img/zaak-interieur.jpg",
+    "telephone": "+32 465 67 83 18",
+    "priceRange": "€5–€35",
+    "address": {"@type": "PostalAddress","streetAddress": "Parijsstraat 43","postalCode": "3000","addressLocality": "Leuven","addressCountry": "BE"},
+    "geo": {"@type": "GeoCoordinates","latitude": 50.8782744,"longitude": 4.6990849},
+    "openingHours": "Tu-Su 10:00-19:00",
+    "aggregateRating": {"@type": "AggregateRating","ratingValue": "4.9","reviewCount": "45"},
+    "sameAs": ["https://www.instagram.com/barberville_01/"]
+  }
+  </script>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a href="#top" class="nav__brand" aria-label="Barberville — naar boven">
+    <img src="img/logo.svg" alt="Barberville" class="nav__logo">
+  </a>
+  <nav class="nav__links" id="navLinks">
+    <a href="#prijzen">Prijzen</a>
+    <a href="#werk">Werk</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#bezoek">Bezoek</a>
+  </nav>
+  <a href="#" class="btn btn--gold nav__cta" data-book>Boek online</a>
+  <button class="nav__toggle" id="navToggle" aria-label="Menu openen" aria-expanded="false"><span></span><span></span></button>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__text">
+      <p class="kicker"><span class="status" data-status>Parijsstraat 43 · Leuven</span></p>
+      <h1>Welkom in<br><span class="gold">Barberville</span></h1>
+      <p class="hero__script">waar elke cut een statement is</p>
+      <p class="hero__lead">Strakke fades, verzorgde baarden en kapsels voor heren én dames — midden in de Parijsstraat, op twee minuten van de Oude Markt.</p>
+      <div class="hero__actions">
+        <a href="#" class="btn btn--gold" data-book>Boek je afspraak</a>
+        <a href="#prijzen" class="btn btn--line">Bekijk prijzen</a>
+      </div>
+      <ul class="hero__facts">
+        <li><strong>4,9★</strong><span>Google</span></li>
+        <li><strong>€20</strong><span>Student haar &amp; baard</span></li>
+        <li><strong>Di–Zo</strong><span>10:00 – 19:00</span></li>
+      </ul>
+    </div>
+    <div class="hero__visual">
+      <div class="arch arch--hero"><img src="img/zaak-interieur.jpg" alt="Interieur van Barberville met hexagon-verlichting"></div>
+      <div class="arch arch--mini"><img src="img/mod-cut-taper.jpg" alt="Mod cut met taper fade"></div>
+      <div class="ring" aria-hidden="true">
+        <svg viewBox="0 0 200 200"><defs><path id="c" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+          <text><textPath href="#c">BARBERVILLE · LEUVEN · EST. PARIJSSTRAAT · </textPath></text></svg>
+        <img src="img/logo.svg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <div class="deco-line" aria-hidden="true"><span>✦</span></div>
+
+  <!-- PRIJZEN -->
+  <section class="section prices" id="prijzen">
+    <div class="head reveal">
+      <p class="kicker">Prijslijst</p>
+      <h2>Eerlijke prijzen, <span class="gold">scherp werk</span></h2>
+    </div>
+
+    <div class="tabs reveal" role="tablist">
+      <button role="tab" class="tab is-active" aria-selected="true" data-tab="heren">Heren</button>
+      <button role="tab" class="tab" aria-selected="false" data-tab="dames">Dames</button>
+    </div>
+
+    <div class="price-grid reveal">
+      <div class="price-card" id="priceList"><!-- gevuld door script.js --></div>
+      <aside class="student">
+        <p class="kicker">Student?</p>
+        <p class="student__price">€20</p>
+        <p class="student__what">Haar &amp; baard · 45 min</p>
+        <p class="muted">Toon je studentenkaart en krijg de complete behandeling aan studententarief.</p>
+        <a href="#" class="btn btn--gold" data-book>Boek student deal</a>
+      </aside>
+    </div>
+  </section>
+
+  <!-- WERK -->
+  <section class="section work" id="werk">
+    <div class="head reveal">
+      <p class="kicker">Uit de stoel</p>
+      <h2>Ons <span class="gold">werk</span></h2>
+    </div>
+    <div class="arches">
+      <figure class="arch-card reveal"><div class="arch"><img src="img/slick-back.jpg" alt="Slick back" loading="lazy"></div><figcaption>Slick back</figcaption></figure>
+      <figure class="arch-card reveal"><div class="arch"><img src="img/fade-aan-het-werk.jpg" alt="Fade wordt gezet" loading="lazy"></div><figcaption>Fade in de maak</figcaption></figure>
+      <figure class="arch-card reveal"><div class="arch"><img src="img/mod-cut-taper.jpg" alt="Mod cut met taper" loading="lazy"></div><figcaption>Mod cut &amp; taper</figcaption></figure>
+      <figure class="arch-card reveal"><div class="arch"><img src="img/in-de-stoel.jpg" alt="Klant in de stoel bij het raam" loading="lazy"></div><figcaption>Parijsstraat vibes</figcaption></figure>
+    </div>
+    <p class="center reveal"><a class="link" href="https://www.instagram.com/barberville_01/" target="_blank" rel="noopener">Volg @barberville_01 op Instagram →</a></p>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section reviews" id="reviews">
+    <div class="score reveal">
+      <p class="score__num">4,9</p>
+      <p class="score__stars">★★★★★</p>
+      <p class="muted">45 Google reviews</p>
+    </div>
+    <div class="quotes">
+      <blockquote class="reveal">
+        <p>“Top kapper! Top service! Zeker een aanrader als je er goed wilt uitzien!”</p>
+        <cite>Irfan M. · Google</cite>
+      </blockquote>
+      <blockquote class="reveal">
+        <p>“Ik heb de beste kapsel gekregen. Vaste klant erbij!”</p>
+        <cite>Ramadan M. · Google</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- BEZOEK -->
+  <section class="section visit" id="bezoek">
+    <div class="visit__card reveal">
+      <p class="kicker">Bezoek ons</p>
+      <h2>Parijsstraat <span class="gold">43</span></h2>
+      <p class="muted">3000 Leuven · tussen de Oude Markt en de Brusselsestraat</p>
+      <div class="open-now" data-status-box><span class="dot"></span><span data-status-text>…</span></div>
+      <table class="hours" id="hours"></table>
+      <div class="visit__actions">
+        <a href="#" class="btn btn--gold" data-book>Boek online</a>
+        <a href="tel:+32465678318" class="btn btn--line">Bel 0465 67 83 18</a>
+      </div>
+      <p class="muted small">Liever een DM? Stuur ons een bericht op <a class="link" href="https://www.instagram.com/barberville_01/" target="_blank" rel="noopener">Instagram</a>.</p>
+    </div>
+    <div class="visit__map reveal">
+      <iframe title="Kaart Barberville" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://maps.google.com/maps?q=Barberville%2C%20Parijsstraat%2043%2C%203000%20Leuven&z=16&output=embed"></iframe>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <img src="img/logo.svg" alt="Barberville" class="footer__logo">
+  <div class="footer__links">
+    <a href="#" data-book>Online boeken</a>
+    <a href="tel:+32465678318">0465 67 83 18</a>
+    <a href="https://www.instagram.com/barberville_01/" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://www.google.com/maps/search/?api=1&query=Barberville+Parijsstraat+43+Leuven" target="_blank" rel="noopener">Google Maps</a>
+  </div>
+  <p class="muted small">© <span id="year"></span> Barberville · Parijsstraat 43, 3000 Leuven</p>
+</footer>
+
+<a href="#" class="fab" data-book>Boek nu</a>
+
+<script src="script.js"></script>
+</body>
+</html>

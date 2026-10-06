@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" fill="none">
+  <g stroke="#111111" stroke-width="4" stroke-linecap="round">
+    <line x1="104" y1="18" x2="136" y2="62"/>
+    <line x1="136" y1="18" x2="104" y2="62"/>
+  </g>
+  <circle cx="102" cy="68" r="8" stroke="#111111" stroke-width="4"/>
+  <circle cx="138" cy="68" r="8" stroke="#111111" stroke-width="4"/>
+  <text x="120" y="118" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="700" textLength="212" lengthAdjust="spacingAndGlyphs" fill="#111111">BARBERVILLE</text>
+  <rect x="112" y="130" width="16" height="6" rx="2" fill="#111111"/>
+  <rect x="114" y="138" width="12" height="40" rx="2" stroke="#111111" stroke-width="2.5"/>
+  <path d="M114 146l12-6M114 156l12-6M114 166l12-6M114 176l12-6" stroke="#111111" stroke-width="3"/>
+  <rect x="112" y="180" width="16" height="6" rx="2" fill="#111111"/>
+</svg>
